@@ -1,66 +1,132 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!--=============== FAVICON ===============-->
-        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
 
-        <!--=============== REMIXICONS ===============-->
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
 
-        <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="assets/css/styles.css">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="css/app.css" />
 
-        <title>Responsive sushi website - Bedimcode</title>
-    </head>
-    <body>
-        <!--==================== HEADER ====================-->
-        <header class="header" id="header">
-            
-        </header>
+    <title>Responsive sushi website - Bedimcode</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg bg-body fixed-top">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img src="./img/favicon.png" class="w-25" alt="" />
+              <span class="title"> Sushi </span>
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Popular</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Recently</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link"><i class="ri-moon-line"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
 
-        <!--==================== MAIN ====================-->
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home section" id="home">
-                
-            </section>
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="" id="home">
+        <div class="container">
+          <div class="row align-items-center min-vh-100 align-content-center">
+            <div class="col-md-5 animate__animated animate__backInUp">
+              <h1 class="display-5 mb-0">Enjoy Delicious</h1>
 
-            <!--==================== ABOUT ====================-->
-            <section class="about section" id="about">
-                
-            </section>
+              <div class="d-flex align-items-center mb-3">
+                <img
+                  src="/img/home-sushi-title.png"
+                  style="width: 35px"
+                  class="me-2"
+                  alt=""
+                />
+                <h1 class="display-5">Sushi Food</h1>
+              </div>
+              <p class="text-light mb-4">
+                Enjoy a good dinner with the best dishes in the restaurant and
+                improve your day.
+              </p>
+              <button
+                class="btn btn-sm btn-primary text-white d-flex align-items-center"
+              >
+                <span class="me-1"> Order Now </span>
+                <i class="ri-arrow-right-fill title-arrow"></i>
+              </button>
+            </div>
+            <div class="col-md-7 animate__animated animate__backInDown">
+              <img
+                src="/img/home-sushi-rolls.png"
+                class="d-block w-100"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
 
-            <!--==================== POPULAR ====================-->
-            <section class="popular section" id="popular">
-                
-            </section>
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about"></section>
 
-            <!--==================== RECENTLY ====================-->
-            <section class="recently section" id="recently">
-                
-            </section>
+      <!--==================== POPULAR ====================-->
+      <section class="popular section" id="popular"></section>
 
-            <!--==================== NEWSLETTER ====================-->
-            <section class="newsletter section">
-                
-            </section>
-        </main>
+      <!--==================== RECENTLY ====================-->
+      <section class="recently section" id="recently"></section>
 
-        <!--==================== FOOTER ====================-->
-        <footer class="footer">
-            
-        </footer>
+      <!--==================== NEWSLETTER ====================-->
+      <section class="newsletter section"></section>
+    </main>
 
-        <!--========== SCROLL UP ==========-->
+    <!--==================== FOOTER ====================-->
+    <footer class="footer"></footer>
 
+    <!--========== SCROLL UP ==========-->
 
-        <!--=============== SCROLLREVEAL ===============-->
-        <script src=""></script>
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src=""></script>
 
-        <!--=============== MAIN JS ===============-->
-        <script src="assets/js/main.js"></script>
-    </body>
+    <!--=============== MAIN JS ===============-->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
